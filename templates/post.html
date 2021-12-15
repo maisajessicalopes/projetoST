@@ -1,0 +1,14 @@
+<html>
+<body>
+<h1>Cadastrar</h1>
+
+<Form action="{{ url_for('hotel.post')}}" method="post">    
+         Nome: <input type="text" name="nome"/> <br>
+         Estrelas: <input type="text" name="estrelas"/> <br>
+         Diária: <input type="text" name="diaria"/> <br>
+         Cidade: <input type="text" name="cidade"/> <br>
+         <br><br>
+         <input type="submit" value="Cadastrar" />
+</form>
+</body>     
+</html>
